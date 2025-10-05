@@ -21,7 +21,7 @@ h3 {
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
 }
 
@@ -35,7 +35,7 @@ nav {
 }
 
 article {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 /* Logo Text */
@@ -312,7 +312,7 @@ footer {
   font-weight: normal;
   font-style: italic;
 }
-
+/*  
 .row {
   display: flex;
   align-items: flex-start;
@@ -320,12 +320,12 @@ footer {
   margin-bottom: 60px;
 }
 
-article {
-  /* DEFAULTS 
+article { 
+   DEFAULTS 
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  */
+  
 
   flex: 1;
   margin-bottom: 0;
@@ -333,4 +333,31 @@ article {
 
 aside {
   flex: 0 0 350px;
+}
+*/
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* GRID LAYOUT */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 75px;
+  row-gap: 60px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1 / -1;
+}
+
+article {
+}
+
+aside {
+}
+
+footer {
+  /* background-color: #109bad; */
+  grid-column: 1 / -1;
 }
