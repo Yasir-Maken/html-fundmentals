@@ -6,7 +6,7 @@ A landing page and product showcase built using custom HTML5 and CSS3. This proj
 
 ## 🔗 Links
 
-- **Live Demo:** [View Live Site](https://Yasir-Maken.github.io/web-design-rules/) _(Replace `web-design-rules` with your exact repo name)_
+- **Live Demo:** [View Live Site](https://Yasir-Maken.github.io/web-design-rules/)
 - **Repository:** [GitHub Source Code](https://github.com/Yasir-Maken/web-design-rules)
 
 ---
