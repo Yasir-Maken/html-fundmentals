@@ -1,63 +1,60 @@
-# 🪑 Lisbon Chair Shop — Web Design & Component Practice
+# 📐 Web Components & Layout Systems — HTML & CSS Practice
 
-A landing page and product showcase built using custom HTML5 and CSS3. This project demonstrates core web design systems, UI/UX principles, and layout techniques learned during Jonas Schmedtmann's HTML & CSS curriculum.
+A comprehensive collection of web components, layouts, and positioning experiments built using pure HTML5 and CSS3. This repository documents hands-on practice with core front-end layout strategies—ranging from traditional floats to modern CSS Flexbox and Grid—based on Jonas Schmedtmann's HTML & CSS curriculum.
 
 ---
 
 ## 🔗 Links
 
-- **Live Demo:** [View Live Site](https://Yasir-Maken.github.io/web-design-rules/)
-- **Repository:** [GitHub Source Code](https://github.com/Yasir-Maken/web-design-rules)
+- **Live Demo:** [View Live Site](https://Yasir-Maken.github.io/html-fundmentals/) _(Replace `YOUR-NEW-REPO-NAME` with your updated GitHub repository name)_
+- **Repository:** [GitHub Source Code](https://github.com/Yasir-Maken/html-fundmentals)
 
 ---
 
 ## 🎯 Overview & Purpose
 
-The goal of this project was to move beyond basic HTML structure and master the fundamental design principles required to craft clean, user-friendly, and visual-appealing web interfaces from scratch.
-
-It highlights practical implementations of **visual hierarchy**, **consistent spacing systems**, **typography rules**, and **modern box-model techniques**.
+The objective of this project was to master how elements are positioned and aligned on the web. By building modular web components and structured page sections, I developed a strong mental model for page flow, structural architecture, and layout responsiveness.
 
 ---
 
 ## 💡 Key Concepts & Learnings
 
-### 1. 🎨 Typography & Hierarchy
+### 1. 🧩 Web Components & HTML Structure
 
-- **Scale & Rhythm:** Applied clear typography scaling to differentiate headers (`h1`, `h2`, `h3`), body text, and small meta-labels.
-- **Readability:** Optimized line height (`line-height`), letter spacing (`letter-spacing`), and font weights to maximize legibility across different device viewports.
+- **Semantic Architecture:** Utilized structural elements (`<header>`, `<nav>`, `<article>`, `<section>`, `<footer>`) to construct clean, accessible documents.
+- **Component-Driven Design:** Built reusable UI modules (cards, headers, feature grids, call-to-action sections) with modular styling.
 
-### 2. 📐 Whitespace & Layout Architecture
+### 2. 📐 Layout Evolution: Floats, Flexbox & Grid
 
-- **Systematic Spacing:** Utilized consistent margin and padding scales (using rem/px ratios) to establish vertical rhythm and grouping.
-- **Component Layouts:** Structured complex components—such as feature cards, testimonial sections, and product pricing grids—using CSS Flexbox and Grid.
+- **CSS Flexbox:** Applied 1D positioning for alignment, equal-height column distribution, and space distribution across sub-components.
+- **CSS Grid:** Designed multi-column responsive page layouts (2D positioning), control gap spacing, and grid area alignments.
+- **Float & Clearfix (Legacy):** Practiced traditional `float` techniques and clearfixes to understand legacy codebases and the evolution of CSS layouts.
 
-### 3. 🖼️ Visual Polish (Borders, Shadows & Color)
+### 3. 🎯 CSS Positioning & Stacking
 
-- **Depth & Elevation:** Applied soft `box-shadow` values to lift product cards and buttons off the page without creating visual clutter.
-- **Borders & Radii:** Applied custom border styles and subtle `border-radius` adjustments to unify image assets and interactive call-to-action (CTA) elements.
-- **Color Hierarchy:** Established a primary palette with desaturated neutral tones and targeted visual accents for primary buttons (`ADD TO CART`).
+- **Relative vs. Absolute:** Controlled element placement using `position: absolute` relative to parent containers for overlay elements, badges, and tooltips.
+- **Stacking Contexts:** Managed element overlapping and visual hierarchy using `z-index`.
 
-### 4. 🛠️ Clean Code & Semantic HTML
+### 4. 🎨 Styling & Typography
 
-- Standardized semantic structural tags (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`).
-- Organized CSS variables and utility classes for maintainable and scalable code.
+- Custom font scaling, line-height calibration, box model management (`border-box`), and custom background properties.
 
 ---
 
 ## 🧰 Tech Stack
 
-- **HTML5:** Semantic layout structuring & accessibility fundamentals.
-- **CSS3:** Flexbox, CSS Grid, custom properties (variables), box model optimization, typography rules.
-- **GitHub Pages:** Deployment and live hosting.
+- **HTML5:** Semantic markup & document structure.
+- **CSS3:** Flexbox, CSS Grid, positioning (`relative`/`absolute`), float layouts, and modern resets.
+- **GitHub Pages:** Static hosting & deployment.
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-├── index.html          # Main HTML document
+├── index.html          # Main HTML showcase document
 ├── css/
-│   └── style.css       # Custom styles & design systems
-├── img/                # Optimized image assets
+│   └── style.css       # Layout styles & component architecture
+├── img/                # Project assets & media
 └── README.md           # Project documentation
 ```
