@@ -6,7 +6,7 @@ A comprehensive collection of web components, layouts, and positioning experimen
 
 ## 🔗 Links
 
-- **Live Demo:** [View Live Site](https://Yasir-Maken.github.io/html-fundmentals/) _(Replace `YOUR-NEW-REPO-NAME` with your updated GitHub repository name)_
+- **Live Demo:** [View Live Site](https://Yasir-Maken.github.io/html-fundmentals/)
 - **Repository:** [GitHub Source Code](https://github.com/Yasir-Maken/html-fundmentals)
 
 ---
